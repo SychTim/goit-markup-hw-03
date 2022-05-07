@@ -22,6 +22,11 @@ h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .link {
     text-decoration: none;
 }
@@ -35,13 +40,15 @@ h1, h2, h3, p, ul {
     color: var(--text-color);
 }
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
-}
-/* .section {
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* ---------------------ХЕДЕР--------------------- */
 .header {
@@ -110,6 +117,10 @@ h1, h2, h3, p, ul {
 
 
 /* --------------------герой-------------------- */
+.section.hero {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .hero {
     background-color: #2F303A; /* временно */
     text-align: center;
@@ -148,10 +159,6 @@ h1, h2, h3, p, ul {
 }
 
 /* --------------особенности------------------- */
-.pecul .container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .pecul ul{
     display: flex;
     flex-direction: row;
@@ -179,9 +186,6 @@ h1, h2, h3, p, ul {
 }
 
 /* -------------чем мы занимаемся-------------- */
-.what-are-we-doing {
-    padding-bottom: 94px;
-}
 .what-are-we-doing h2,
 .team h2 {
     font-size: 36px;
@@ -199,8 +203,6 @@ h1, h2, h3, p, ul {
 
 /* -------------наша команда-------------------- */
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: var(--background-team);
 }
 .team ul {
@@ -259,10 +261,6 @@ h1, h2, h3, p, ul {
 
 
 /* -------------------портфолио-------------------- */
-.portfolio .container{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .filter.list {
     display: flex;
     justify-content: center;
