@@ -40,9 +40,9 @@ h1, h2, h3, p, ul {
     color: var(--text-color);
 }
 .container {
-    width: 1190px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 /* ---------------------ХЕДЕР--------------------- */
