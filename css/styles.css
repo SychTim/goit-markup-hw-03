@@ -186,6 +186,9 @@ img {
 }
 
 /* -------------чем мы занимаемся-------------- */
+.section.what-are-we-doing {
+    padding-top: 0;
+}
 .what-are-we-doing h2,
 .team h2 {
     font-size: 36px;
@@ -235,8 +238,6 @@ img {
 /* --------------------футер----------------------- */
 .footer {
     background-color: #2F303A; /* временно */
-}
-.footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
 }
